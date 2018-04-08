@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Gia</string>
+    <string name="title">购物车</string>
+    <string name="select_all">全选</string>
+    <string name="summary">合计：</string>
+    <string name="summary_text">0.0元</string>
+    <string name="empty_hint">空空如也~</string>
+</resources>

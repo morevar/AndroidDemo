@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <include layout="@layout/rv_item_shopping_list_base"/>
+
+    <LinearLayout
+        android:id="@+id/ll_ri_del"
+        android:layout_width="48dp"
+        android:layout_height="match_parent"
+        android:background="#D1BA74">
+        <!--#D1BA74-->
+
+        <TextView
+            android:id="@+id/tv_ri_del"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="删除"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+</LinearLayout>
